@@ -1,0 +1,19 @@
+current directory: /home/shun/nuxt-auth0/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+/home/shun/.rbenv/versions/2.6.3/bin/ruby -I /home/shun/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190829-16724-xfpfo4.rb extconf.rb
+creating Makefile
+
+current directory: /home/shun/nuxt-auth0/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/shun/nuxt-auth0/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU -I/home/shun/.rbenv/versions/2.6.3/include     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/shun/nuxt-auth0/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20190829-16724-142we7k
