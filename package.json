@@ -1,0 +1,9 @@
+{
+    "engines":{
+        "node": "10.16.0",
+        "yarn": "1.19.1"
+    },
+    "scripts": {
+        "postinstall": "cd frontend && yarn install && yarn build"
+    }
+}
