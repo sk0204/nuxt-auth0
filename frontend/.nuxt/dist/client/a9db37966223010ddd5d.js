@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{510:function(n,t,e){"use strict";e.r(t);e(162);var r={mounted:function(){this.$auth0.setTokenByQuery(),this.$router.replace("/")}},o=e(49),component=Object(o.a)(r,function(){var n=this.$createElement;return(this._self._c||n)("p",[this._v("Signing in...")])},[],!1,null,null,null);t.default=component.exports}}]);

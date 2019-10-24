@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{511:function(t,n,e){"use strict";e.r(n);e(162);var o={mounted:function(){this.$auth0.unsetToken(),this.$router.replace("/")}},r=e(49),component=Object(r.a)(o,function(){var t=this.$createElement;return(this._self._c||t)("p",[this._v("Signing out...")])},[],!1,null,null,null);n.default=component.exports}}]);
