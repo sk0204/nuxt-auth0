@@ -40,7 +40,7 @@ const config = {
     }
   },
   mode: 'spa',
-  plugins: ['./plugins/auth0.js'],
+  plugins: ['~/plugins/auth0.js'],
   auth0: {
     domain: 'dev-kwtp72qm.auth0.com',
     clientID: '58Ncokr4V6ojOSmbpJrefhDz4pwXk3fv'
