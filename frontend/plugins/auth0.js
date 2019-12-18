@@ -57,8 +57,12 @@ class Auth0Util{
     localStorage.removeItem('user')
   }
 
-  getIdToken(){
-    return this.isAuthenticated() ? localStorage.getItem('idToken') : null
+  //getIdToken(){
+  //  return this.isAuthenticated() ? localStorage.getItem('idToken') : null
+  //}
+
+  getUser(){
+    return this.isAuthenticated() ? localStorage.getItem('user') : null
   }
 }
 
