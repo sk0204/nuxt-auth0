@@ -37,10 +37,6 @@ export default {
       const ret = await this.$axios.$get('/api/v1/secured',
         { headers: { Authorization: 'Bearer ' + this.$auth0.getIdToken() }})
       console.log(ret)
-    },
-    async user(){
-      const ret = this.$auth0.getUser()
-      console.log(ret)
     }
   }
 }
