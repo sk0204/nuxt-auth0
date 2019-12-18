@@ -60,10 +60,6 @@ class Auth0Util{
   getIdToken(){
     return this.isAuthenticated() ? localStorage.getItem('idToken') : null
   }
-
-  getUser(){
-    return this.isAuthenticated() ? localStorage.getItem('user') : null
-  }
 }
 
 export default (context, inject) => {

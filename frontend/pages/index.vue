@@ -33,9 +33,8 @@ export default {
       console.log(ret)
     },
     async secured(){
-      //const ret = await this.$axios.$get('/api/v1/secured',
-        //{ headers: { Authorization: 'Bearer ' + this.$auth0.getIdToken() }})
-      const ret = this.$auth0.getUser()
+      const ret = await this.$axios.$get('/api/v1/secured',
+        { headers: { Authorization: 'Bearer ' + this.$auth0.getIdToken() }})
       console.log(ret)
     }
   }
