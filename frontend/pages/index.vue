@@ -18,7 +18,6 @@
       </div>
       <button class="button is-primary" @click="ping">Ping</button>
       <button class="button is-danger" @click="secured">Secured</button>
-      <button class="button is-primary" @click="ping">User</button>
     </div>
   </section>
 </template>
